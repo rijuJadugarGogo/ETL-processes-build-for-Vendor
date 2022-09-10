@@ -1,0 +1,211 @@
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6014 : Initializing session [s_CDW_SAPP_D_Vendor_parts] at [Fri Jun 24 14:23:48 2022].
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6683 : Repository Name: [Repo_Academy]
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6684 : Server Name: [INT_RepoAcademy]
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6686 : Folder: [Project]
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6685 : Workflow: [wf_project] Run Instance Name: [] Run Id: [84]
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6101 : Mapping name: m_CDW_SAPP_D_Vendor_parts [version CheckedOut].
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6703 : Session [s_CDW_SAPP_D_Vendor_parts] is run by 64-bit Integration Service  [node01], version [10.1.0], build [0610].
+2022-06-24 14:23:48 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2022-06-24 14:23:48 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24058 : Running Partition Group [1].
+2022-06-24 14:23:48 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2022-06-24 14:23:48 : INFO : (556 | MONITOR) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2022-06-24 14:23:48 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2022-06-24 14:23:48 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24003 : Initializing session run.
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1569 : Server Mode: [ASCII]
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6151 : The session sort order is [Binary].
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6156 : Using low precision processing.
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6307 : DTM error log disabled. 
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7022 : TShmWriter: Initialized
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : DBG_21075 : Connecting to database [orcl1], user [infoadmin]
+2022-06-24 14:23:48 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6007 : DTM initialized successfully for session [s_CDW_SAPP_D_Vendor_parts]
+2022-06-24 14:23:48 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2022-06-24 14:23:48 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Fri Jun 24 14:23:48 2022)
+2022-06-24 14:23:48 : INFO : (556 | PRE-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2022-06-24 14:23:49 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24006 : Starting data movement.
+2022-06-24 14:23:49 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [3] lookup caches; [0] on-demand only).
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 2439296 bytes and Block size is 65536 bytes.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS]: Default sql to create lookup cache: SELECT VENDOR_ID,VENDOR_SSN FROM CDW_SAPP_D_VENDORS ORDER BY VENDOR_SSN
+
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS] from [59652323] to [59654000].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS] from [119304646] to [119308288].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_2] has the ID [6].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS1]: Default sql to create lookup cache: SELECT PART_NAME,PART_ID FROM CDW_SAPP_D_PART ORDER BY PART_ID
+
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS1] from [59652323] to [59654000].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS1] from [119304646] to [119308288].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_3] has the ID [7].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3) : (IS | INT_RepoAcademy) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS2]: Default sql to create lookup cache: SELECT VENDOR_PARTS_KEY,VENDOR_ID,PART_ID,PART_NAME,VENDOR_SSN FROM CDW_SAPP_D_VENDOR_PARTS ORDER BY VENDOR_SSN
+
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS2] from [59652323] to [59654000].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3) : (IS | INT_RepoAcademy) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS2] from [119304646] to [119308288].
+2022-06-24 14:23:49 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [8].
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3118 : source [SQ_CDW_SAPP_D_Vendor_parts] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [9].
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21438 : Reader: Source is [orcl1], user [infoadmin]
+2022-06-24 14:23:49 : INFO : (556 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [10].
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [11].
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8147 : Writer: Target is database [orcl1], user [infoadmin], bulk mode [OFF]
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [12].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21682 : Lookup table row count : 4
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21297 : Lookup cache row count : 4
+
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : CMN_1671 : Created new cache files PMLKUP73_3_0_84W64.[dat/idx] in directory C:\Informatica\10.1.0\server\infa_shared\Cache for Lookup [LKPTRANS].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21641 : LKPTRANS: Index cache size = [59654000], Data cache size = [119308288]
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_1:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS{{DSQ}}]. Total errors [0] 
+2022-06-24 14:23:49 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS1].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_2:READER_1_1] has the ID [13].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21438 : Reader: Source is [orcl1], user [infoadmin]
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table CDW_SAPP_D_VENDOR_PARTS :SQL INSERT statement:
+INSERT INTO CDW_SAPP_D_VENDOR_PARTS(VENDOR_PARTS_KEY,VENDOR_ID,VENDOR_SSN,PART_ID,PART_NAME,EFF_START_DATE,EFF_END_DATE)  VALUES ( ?, ?, ?, ?, ?, ?, ?) 
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8147 : Writer: Target is database [orcl1], user [infoadmin], bulk mode [OFF]
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table CDW_SAPP_D_VENDOR_PARTS :SQL INSERT statement:
+INSERT INTO CDW_SAPP_D_VENDOR_PARTS(VENDOR_PARTS_KEY,VENDOR_ID,VENDOR_SSN,PART_ID,PART_NAME,EFF_START_DATE,EFF_END_DATE)  VALUES ( ?, ?, ?, ?, ?, ?, ?) 
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8147 : Writer: Target is database [orcl1], user [infoadmin], bulk mode [OFF]
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.1.0\server\infa_shared\BadFiles\cdw_sapp_d_vendor_parts31.bad] (initial size [41]).
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8124 : Target Table CDW_SAPP_D_VENDOR_PARTS :SQL UPDATE statement:
+UPDATE CDW_SAPP_D_VENDOR_PARTS SET EFF_END_DATE = ? WHERE VENDOR_PARTS_KEY = ?
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [CDW_SAPP_D_VENDOR_PARTS, CDW_SAPP_D_VENDOR_PARTS, CDW_SAPP_D_VENDOR_PARTS]
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8003 : Writer initialization complete.
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8005 : Writer run started.
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Fri Jun 24 14:23:49 2022
+
+Target tables:
+
+     CDW_SAPP_D_VENDOR_PARTS
+     CDW_SAPP_D_VENDOR_PARTS
+     CDW_SAPP_D_VENDOR_PARTS
+
+
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : FR_3076 : Skipped over [1] lines.
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [C:\Users\Administrator\Desktop\Project\CDW_SAPP_D_Vendor_parts.csv] : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16019 : Read [4] rows, read [0] error rows for source table [CDW_SAPP_D_Vendor_parts] instance name [CDW_SAPP_D_Vendor_parts]
+2022-06-24 14:23:49 : INFO : (556 | READER_1_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2022-06-24 14:23:49 : INFO : (556 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : TT_11186 : Lookup cache of [LKPTRANS1], previously started by an additional concurrent pipeline, is now needed on demand.
+2022-06-24 14:23:49 : INFO : (556 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS2].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3) : (IS | INT_RepoAcademy) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:READER_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_3:READER_1_1] has the ID [14].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:READER_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21438 : Reader: Source is [orcl1], user [infoadmin]
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_2:TRANSF_1_1] has the ID [15].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21682 : Lookup table row count : 4
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21297 : Lookup cache row count : 4
+
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : CMN_1671 : Created new cache files PMLKUP73_5_0_84W64.[dat/idx] in directory C:\Informatica\10.1.0\server\infa_shared\Cache for Lookup [LKPTRANS1].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21641 : LKPTRANS1: Index cache size = [59654000], Data cache size = [119308288]
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_2:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS1{{DSQ}}]. Total errors [0] 
+2022-06-24 14:23:49 : INFO : (556 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : TT_11186 : Lookup cache of [LKPTRANS2], previously started by an additional concurrent pipeline, is now needed on demand.
+2022-06-24 14:23:49 : INFO : (556 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16003 : Initialization completed successfully.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [LKPDP_3:TRANSF_1_1] has the ID [16].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16007 : Reader run started.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:READER_1_1) : (IS | INT_RepoAcademy) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:READER_1_1) : (IS | INT_RepoAcademy) : node01 : BLKR_16008 : Reader run completed.
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21682 : Lookup table row count : 4
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21297 : Lookup cache row count : 4
+
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : CMN_1671 : Created new cache files PMLKUP73_8_0_84W64.[dat/idx] in directory C:\Informatica\10.1.0\server\infa_shared\Cache for Lookup [LKPTRANS2].
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21641 : LKPTRANS2: Index cache size = [59654000], Data cache size = [119308288]
+2022-06-24 14:23:49 : INFO : (556 | LKPDP_3:TRANSF_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS2{{DSQ}}]. Total errors [0] 
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8167 : Start loading table [CDW_SAPP_D_VENDOR_PARTS] at: Fri Jun 24 14:23:49 2022
+2022-06-24 14:23:49 : INFO : (556 | TRANSF_1_1_1) : (IS | INT_RepoAcademy) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_CDW_SAPP_D_Vendor_parts]. Total errors [0] 
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8167 : Start loading table [CDW_SAPP_D_VENDOR_PARTS] at: Fri Jun 24 14:23:49 2022
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8167 : Start loading table [CDW_SAPP_D_VENDOR_PARTS] at: Fri Jun 24 14:23:49 2022
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8168 : End loading table [CDW_SAPP_D_VENDOR_PARTS] at: Fri Jun 24 14:23:49 2022
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8168 : End loading table [CDW_SAPP_D_VENDOR_PARTS] at: Fri Jun 24 14:23:49 2022
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8168 : End loading table [CDW_SAPP_D_VENDOR_PARTS] at: Fri Jun 24 14:23:49 2022
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8035 : Load complete time: Fri Jun 24 14:23:49 2022
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: CDW_SAPP_D_VENDOR_PARTS (Instance Name: [CDW_SAPP_D_VENDOR_PARTS_INSERT])
+WRT_8044 No data loaded for this target
+
+
+WRT_8036 Target: CDW_SAPP_D_VENDOR_PARTS (Instance Name: [CDW_SAPP_D_VENDOR_PARTS_UPDATE_AS_INSERT])
+WRT_8044 No data loaded for this target
+
+
+WRT_8036 Target: CDW_SAPP_D_VENDOR_PARTS (Instance Name: [CDW_SAPP_D_VENDOR_PARTS3])
+WRT_8044 No data loaded for this target
+
+
+
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2022-06-24 14:23:49 : INFO : (556 | WRITER_1_*_1) : (IS | INT_RepoAcademy) : node01 : WRT_8006 : Writer run completed.
+2022-06-24 14:23:49 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_CDW_SAPP_D_Vendor_parts] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_CDW_SAPP_D_Vendor_parts] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [CDW_SAPP_D_VENDOR_PARTS_INSERT, CDW_SAPP_D_VENDOR_PARTS_UPDATE_AS_INSERT, CDW_SAPP_D_VENDOR_PARTS3] has completed. The total run time was insufficient for any meaningful statistics.
+
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1793 : The index cache size that would hold [4] rows in the lookup table for [LKPTRANS], in memory, is [2800] bytes
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1792 : The data cache size that would hold [4] rows in the lookup table for [LKPTRANS], in memory, is [16384] bytes
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1793 : The index cache size that would hold [4] rows in the lookup table for [LKPTRANS1], in memory, is [2800] bytes
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1792 : The data cache size that would hold [4] rows in the lookup table for [LKPTRANS1], in memory, is [16384] bytes
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1793 : The index cache size that would hold [4] rows in the lookup table for [LKPTRANS2], in memory, is [2800] bytes
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : CMN_1792 : The data cache size that would hold [4] rows in the lookup table for [LKPTRANS2], in memory, is [16384] bytes
+2022-06-24 14:23:49 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | POST-SESS) : (IS | INT_RepoAcademy) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [17].
+2022-06-24 14:23:49 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Fri Jun 24 14:23:49 2022)
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [PMLKUP73_3_0_84W64] for transformation [LKPTRANS].
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [PMLKUP73_5_0_84W64] for transformation [LKPTRANS1].
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TE_7216 : Deleting cache files [PMLKUP73_8_0_84W64] for transformation [LKPTRANS2].
+2022-06-24 14:23:49 : INFO : (556 | MAPPING) : (IS | INT_RepoAcademy) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2022-06-24 14:23:49 : INFO : (556 | MANAGER) : (IS | INT_RepoAcademy) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : PETL_24012 : Session run completed successfully.
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6252 : Source Load Summary.
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [SQ_CDW_SAPP_D_Vendor_parts] (Instance Name: [SQ_CDW_SAPP_D_Vendor_parts])
+	 Output Rows [4], Affected Rows [4], Applied Rows [4], Rejected Rows [0]
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6253 : Target Load Summary.
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [CDW_SAPP_D_VENDOR_PARTS] (Instance Name: [CDW_SAPP_D_VENDOR_PARTS_INSERT])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [CDW_SAPP_D_VENDOR_PARTS] (Instance Name: [CDW_SAPP_D_VENDOR_PARTS_UPDATE_AS_INSERT])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : CMN_1740 : Table: [CDW_SAPP_D_VENDOR_PARTS] (Instance Name: [CDW_SAPP_D_VENDOR_PARTS3])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6023 : 
+===================================================
+
+2022-06-24 14:23:50 : INFO : (556 | DIRECTOR) : (IS | INT_RepoAcademy) : node01 : TM_6020 : Session [s_CDW_SAPP_D_Vendor_parts] completed at [Fri Jun 24 14:23:50 2022].

@@ -1,0 +1,5 @@
+"VENDOR_KEY","VENDOR_ID","VENDOR_NAME","VENDOR_SSN","VENDOR_STREETNAME","VENDOR_CITY","VENDOR_STATE","VENDOR_COUNTRY","VENDOR_ZIP","VENDOR_PHONE","VENDOR_EMAIL","EFF_START_DATE","EFF_END_DATE"
+12,1,"John",780511202,"Mangalwar peth Savitri Apartment","Pune","Maharashtra","India",415219,"876-899-8453","john@gmail.com",24-JUN-22,31-DEC-99
+13,2,"Rakesh",875652543,"Park Street Ekopa Apartment","Satara","Maharashtra","India",657621,"760-233-5473","rakesh@gmail.com",24-JUN-22,31-DEC-99
+14,3,"Atharv",760098753,"Rajapath City Dwellers","Vadodara","Gujarat","India",764532,"997-045-2634","atharv@gmail.com",24-JUN-22,31-DEC-99
+15,4,"Vaishnavi",747257343,"Karve nagar Wild Estates","Sangali","Maharashtra","India",415110,"764-955-6372","vaishnavi@gmail.com",24-JUN-22,31-DEC-99
